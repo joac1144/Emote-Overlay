@@ -1,7 +1,7 @@
 # Usage:
 
 This project is a webpage that shows emote streaks on the bottom left of the page. **_(Page dimensions are 1280px x 720px)_**  
-It can also show emotes randomly on screen if a chatter does !showemote (emote*name)  
+It can also show emotes randomly on screen if a chatter does ! (emote*name)  
 \_This overlay can be used in streaming software like OBS*
 The emotes are taken from Twitch, FFZ, BTTV, and optionally, 7TV.
 
@@ -33,5 +33,5 @@ For example, if I wanted to add the "minStreak" and the "7tv" parameter, my new 
 -   showEmoteEnabled=(1 for enabled, 0 for disabled) _OPTIONAL - Defaults to 1 (enabled)_
 -   streakEnabled=(1 for enabled, 0 for disabled) _OPTIONAL - Defaults to 1 (enabled)_
 -   showEmoteSizeMultiplier=(changes the size of the show emotes by the number provided) _OPTIONAL - Defaults to 2_
--   showEmoteCooldown=(cooldown in seconds between usage of !showemote command) _OPTIONAL - Defaults to 5_
+-   showEmoteCooldown=(cooldown in seconds between usage of ! command) _OPTIONAL - Defaults to 5_
 -   7tv=(1 for enabled, 0 for disabled) (enable or disable 7tv.app emotes support) _OPTIONAL - Defaults to 0 (disabled)_
