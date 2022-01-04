@@ -1,3 +1,5 @@
+# Forked from: https://github.com/jahaanjain/Emote-Overlay
+
 # Usage:
 
 This project is a webpage that shows emote streaks on the bottom left of the page. **_(Page dimensions are 1280px x 720px)_**  
