@@ -356,7 +356,7 @@ function connect() {
         if (messageFull.length > 12) {
             let messageBefore = messageFull[messageFull.length - 1].split(`${channel} :`).pop(); // gets the raw message
             let message = messageBefore.split(" ").includes("ACTION") ? messageBefore.split("ACTION ").pop().split("")[0] : messageBefore; // checks for the /me ACTION usage and gets the specific message
-            if (message.toLowerCase().startsWith("!showemote") || message.toLowerCase().startsWith("!#showemote")) {
+            if (message.toLowerCase().startsWith("!") || message.toLowerCase().startsWith("!#")) {
                 showEmote(message, messageFull);
             }
             findEmotes(message, messageFull);
